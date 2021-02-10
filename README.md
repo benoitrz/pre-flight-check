@@ -1,3 +1,3 @@
 ## Pre Flight Check
 
-Technical test.
+Small technical test about Javascript Promises.
