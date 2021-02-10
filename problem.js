@@ -9,7 +9,7 @@
  *   addProcedure( procedureFcn ): register a procedure function, which takes a "proceed" callback and also an "abort" callback.
  *   execute( successCallback, errorCallback ): runs all procedures, then calls either the success callback, or error callback if any procedure is aborted.
  */
-var PreFlightCheck = require('./');  // <- this is the file you make;
+var PreFlightCheck = require('./pre-flight-check');  // <- this is the file you make;
 
 var preFlight = new PreFlightCheck();
 
